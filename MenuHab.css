@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+* {
+	padding: 0%;
+	margin: 0%;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.h1{
+	text-align: center;
+	background-color: rgb(3, 75, 39);
+	color: rgb(255, 255, 255);
+	padding: 20px;
+    font-size: 23px;
+}
+
+
+#menuH{
+	background-color: #2D9581;
+}
+#menuH ul{
+list-style: none;
+margin: 0;
+padding: 0;
+
+}
+#menuH ul li{ display: inline-block;
+    font-size: 25px;
+ }
+ #menuH ul li a{
+ 	color: black;
+ 	display: block;
+ 	padding: 20px 30px;
+ 	text-decoration: none;
+ }
+ #menuH ul li a:hover{
+ 	background-color: rgb(218, 255, 248) ;
+ }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color:  rgb(16, 9, 37);
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color:  rgb(28, 15, 65);
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color:rgb(28, 15, 65);
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}

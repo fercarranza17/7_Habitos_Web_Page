@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+body{
+    background: rgb(203, 218, 199);
+}
+
+.uwu{
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+    background: white;
+    margin-top: 100px;
+    border-top: 10px solid rgb(73, 216, 168);
+}
+
+.titlee{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.sub-titlee{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.uwu img{
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px ;
+}
+
+.uwu p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.uwu ul{
+    margin-top: 20px;
+}
